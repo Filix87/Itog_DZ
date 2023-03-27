@@ -1,6 +1,6 @@
 ﻿string[] Array = FillArray();
 string[] resultArray = NewArray(Array);
-//вводим значениея чтобы заполнить массив со строками
+//вводим значения чтобы заполнить массив со строками
 string[] FillArray()
 {
     Console.WriteLine($"Введите значения для строки через запятые, точки или пробел: ");
@@ -23,7 +23,7 @@ int CountSymbols(string[] Array)
     }
     return counter;
 }
-//заполняем новый массив значеними меньше или равному 3 символам
+//заполняем новый массив значениями меньше или равному 3 символам
 string[] NewArray(string[] Array)
 {
     int resultArrayLength = CountSymbols(Array);
@@ -54,7 +54,7 @@ string PrintArray(string[] Array)
     stringArray += "]";
     return stringArray;
 }
-//ввыводим массив изначальный и итоговый
+//выводим массив изначальный и итоговый
 string firstArray = PrintArray(Array);
 string finalArray = PrintArray(resultArray);
 Console.WriteLine($"{firstArray}  ->  {finalArray}");

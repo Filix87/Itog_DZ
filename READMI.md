@@ -22,6 +22,5 @@
 
 ["Russia", "Denmark", "Kazan"] -> []
 
-# Изображение
-![картинка](https://disk.yandex.ru/i/YES_oPHhsDm2yA)
+![картинка](https://github.com/Filix87/Itog_DZ/blob/master/task..png?raw=true)
 

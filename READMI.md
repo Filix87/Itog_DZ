@@ -38,4 +38,4 @@
 **5. Выводим массив изначальный и итоговый**
 
 
-![блок-схема](https://clevergrad.ru/images/block-diagram_task.drawio.png)
+![блок-схема](https://github.com/Filix87/Itog_DZ/blob/master/block-diagram_task.drawio.png?raw=true)

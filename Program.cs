@@ -11,7 +11,7 @@ string[] FillArray()
     return Array;
 }
 //считаем количество символов в строках
-int CountStringSymbols(string[] Array)
+int CountSymbols(string[] Array)
 {
     int counter = 0;
     foreach (string item in Array)
@@ -26,7 +26,7 @@ int CountStringSymbols(string[] Array)
 //заполняем новый массив значеними меньше или равному 3 символам
 string[] NewArray(string[] Array)
 {
-    int resultArrayLength = CountStringSymbols(Array);
+    int resultArrayLength = CountSymbols(Array);
     string[] resultArray = new string[resultArrayLength];
     int i = 0;
     foreach (string item in Array)
